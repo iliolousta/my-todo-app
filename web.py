@@ -11,7 +11,6 @@ todos = functions.get_todos()
 
 st.title("My Todo App")
 st.subheader("This is my Todo App")
-st.write("This app is to increase productivity")
 
 
 for index, todo in enumerate(todos):
